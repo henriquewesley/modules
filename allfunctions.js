@@ -12,3 +12,4 @@ const person = {
 }
 
 module.exports = { sum, multi, person } //Exportando mais de uma função.
+this.person = person //Exportando a const person.

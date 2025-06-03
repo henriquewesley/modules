@@ -13,7 +13,6 @@ const multi = require('./multi')
 
 console.log(sum(2, 3))
 console.log(multi(2, 3))
-*/
 
 //Agora importando todas as funções de um arquivo
 
@@ -28,3 +27,9 @@ const allfunctions = require('./allfunctions')
 console.log(allfunctions.sum(2, 3))
 console.log(allfunctions.multi(2, 3))
 console.log(allfunctions.person)
+*/
+
+//Importando de outro arquivo usando o this
+
+const person = require('./allfunctions')
+console.log(person)
